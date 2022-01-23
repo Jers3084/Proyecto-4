@@ -1,0 +1,31 @@
+[
+  { "id": 1, "portada": "../img/Menu_pag1.jpg" },
+  {
+    "id": 2,
+    "portada": "https://images-na.ssl-images-amazon.com/images/I/41t447xIjiL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
+  },
+  {
+    "id": 3,
+    "portada": "https://images-na.ssl-images-amazon.com/images/I/41t447xIjiL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
+  },
+  {
+    "id": 4,
+    "portada": "https://images-na.ssl-images-amazon.com/images/I/41t447xIjiL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
+  },
+  {
+    "id": 5,
+    "portada": "https://images-na.ssl-images-amazon.com/images/I/41t447xIjiL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
+  },
+  {
+    "id": 6,
+    "portada": "https://images-na.ssl-images-amazon.com/images/I/41t447xIjiL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
+  },
+  {
+    "id": 7,
+    "portada": "https://images-na.ssl-images-amazon.com/images/I/41t447xIjiL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
+  },
+  {
+    "id": 8,
+    "portada": "https://images-na.ssl-images-amazon.com/images/I/41t447xIjiL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
+  }
+]

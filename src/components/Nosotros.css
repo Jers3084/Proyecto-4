@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nosotros {
+  width: 70%;
+  color: white;
+}
+
+.text {
+  font-size:x-large;
+  color: white;
+}
+
+.horario {
+  padding-top : 20px;
+}
+
+.titulos_nosotros {
+  color: rgb(255, 123, 0);
+}

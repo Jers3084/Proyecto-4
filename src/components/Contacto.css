@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.titulo_contacto {
+  width: 60%;
+  padding-left: 10%;
+  text-align: center;
+  color: rgb(255, 123, 0);
+}
+
+.contenedor_contacto {
+  width: 60%;
+  color: white;
+  font-weight: bold;
+  padding-left: 10%;
+  text-align: left;
+}
+
+.contenedor_boton {
+  width: 60%;
+  padding-left: 10%;
+}
