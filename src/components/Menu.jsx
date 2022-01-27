@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Menu.css'
 import menu1 from '../img/Menu_pag1.jpg'
 import menu2 from '../img/Menu_pag2.jpg'
@@ -11,6 +12,8 @@ import menu7 from '../img/Menu_pag7.jpg'
 export const Menu = () => {
   return (
     <div className="menu">
+      <Link id="arriba" to=''></Link>
+      <h1 className='titulo_menu'>Menu</h1>
       <div className="row row-cols-1 row-cols-md-2 g-4">
         <div className="col">
           <div className="card">
@@ -50,8 +53,10 @@ export const Menu = () => {
           </div>
         </div>
         <div className="col">
-          <div className="card">
-            
+          <div className="">
+            <br/>
+            <br/>
+            <Link to={'arriba'}>Arriba</Link>
           </div>
         </div>
       </div>

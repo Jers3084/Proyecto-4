@@ -33,6 +33,11 @@ export const Nav = () => {
                   Reservar
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link  navbar-font" to="/gestion">
+                  Gestion
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

@@ -4,3 +4,10 @@
   box-sizing: border-box;
 }
 
+.titulo_menu {
+  width: 100%;
+  padding-bottom: 5%;
+  text-align: center;
+  color: rgb(255, 123, 0);
+}
+
