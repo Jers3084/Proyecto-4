@@ -1,16 +1,19 @@
-import React from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import './App.css'
-import { Contacto } from './components/Contacto'
-import { Gestion } from './components/Gestion'
-import { Menu } from './components/Menu'
-import { Nav } from './components/Nav'
-import { Nosotros } from './components/Nosotros'
-import { Reservar } from './components/Reservar'
+import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import "./App.css";
+import fondo from "./img/imagen.png";
+import { Contacto } from "./components/Contacto/Contacto";
+import { Gestion } from "./components/Gestion/Gestion";
+import { Menu } from "./components/Menu/Menu";
+import { Nav } from "./components/Nav/Nav";
+import { Nosotros } from "./components/Nosotros/Nosotros";
+import { Reservar } from "./components/Reservar/Reservar";
 
 function App() {
   return (
     <div className="App">
+      <img src={fondo} className="imagen"></img>
+      
       <BrowserRouter>
         <Nav />
         <Switch>
@@ -32,8 +35,9 @@ function App() {
           </Route>
         </Switch>
       </BrowserRouter>
+      
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
