@@ -111,7 +111,7 @@ export const Gestion = () => {
     <div className="container">
       <div className="row">
         <div className="col-6">
-          <h1>Listado de Reservaciones</h1>
+          <p className="titulos">Listado de Reservaciones</p>
           <ul className="list-group">
             {listadoReservas.map((item) => (
               <li
@@ -136,7 +136,7 @@ export const Gestion = () => {
         </div>
 
         <div className="col-6">
-          <h1>"Editar Reservación"</h1>
+          <p className="titulos">"Editar Reservación"</p>
           <form onSubmit={submit} className="editarR">
             <label className="form-label">
               <b>Nombre</b>

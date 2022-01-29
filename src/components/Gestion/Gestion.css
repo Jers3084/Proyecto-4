@@ -1,14 +1,25 @@
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.titulos {
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .botones {
-   display: flex;
-   justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .editarR {
-   text-align: left;
+  text-align: left;
+  color: brown;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 701px) {
+   
 }

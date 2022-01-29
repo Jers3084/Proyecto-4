@@ -2,7 +2,6 @@ import React from 'react'
 import './Nav.css'
 import { Link } from 'react-router-dom'
 import logo from './img/logo.png'
-import menuS from './img/Menu_icon.png'
 
 export const Nav = () => {
 

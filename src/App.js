@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.css";
-import fondo from "./img/imagen.png";
 import { Contacto } from "./components/Contacto/Contacto";
 import { Gestion } from "./components/Gestion/Gestion";
 import { Menu } from "./components/Menu/Menu";
@@ -12,8 +11,6 @@ import { Reservar } from "./components/Reservar/Reservar";
 function App() {
   return (
     <div className="App">
-      <img src={fondo} className="imagen"></img>
-      
       <BrowserRouter>
         <Nav />
         <Switch>

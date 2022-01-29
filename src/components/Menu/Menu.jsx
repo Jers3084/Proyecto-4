@@ -13,7 +13,7 @@ import menu7 from "./img/Menu_pag7.jpg";
 export const Menu = () => {
   return (
     <div className="menu">
-      <img src={fondo} className="imagen"></img>
+      <img src={fondo} className="imagen" alt="fondo"></img>
       <Link id="arriba" to=""></Link>
       <h1 className="titulo_menu">Menu</h1>
       <div className="row row-cols-1 row-cols-md-2 g-4">
