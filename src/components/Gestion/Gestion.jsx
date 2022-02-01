@@ -138,55 +138,65 @@ export const Gestion = () => {
         <div className="formato">
           <p className="titulos">"Editar Reservación"</p>
           <form onSubmit={submit} className="editarR">
-            <label className="form-label">
-              <b>Nombre</b>
-            </label>
-            <input
-              type="text"
-              className="form-control"
-              onChange={(e) => handleFormNombre(e.target.value)}
-              value={nombre}
-            />
-            <label className="form-label">
-              <b>Correo</b>
-            </label>
-            <input
-              type="email"
-              className="form-control"
-              onChange={(e) => handleFormCorreo(e.target.value)}
-              value={correo}
-            />
-            <label className="form-label">
-              <b>Telefono</b>
-            </label>
-            <input
-              type="tel"
-              className="form-control"
-              onChange={(e) => handleFormTelefono(e.target.value)}
-              value={telefono}
-            />
-            <label className="form-label">
-              <b>Num de Personas</b>
-            </label>
-            <input
-              type="number"
-              className="form-control"
-              onChange={(e) => handleFormNPersonas(e.target.value)}
-              value={numpersonas}
-            />
-            <label className="form-label">
-              <b>Fecha</b>
-            </label>
-            <input
-              type="text"
-              className="form-control"
-              onChange={(e) => handleFormFecha(e.target.value)}
-              value={fecha}
-            />
+            <div className="col-auto" style={{ width: "25rem" }}>
+              <label className="form-label">
+                <b>Nombre</b>
+              </label>
+              <input
+                type="text"
+                className="form-control"
+                onChange={(e) => handleFormNombre(e.target.value)}
+                value={nombre}
+              />
+            </div>
+            <div className="col-auto" style={{ width: "15rem" }}>
+              <label className="form-label">
+                <b>Correo</b>
+              </label>
+              <input
+                type="email"
+                className="form-control"
+                onChange={(e) => handleFormCorreo(e.target.value)}
+                value={correo}
+              />
+            </div>
+            <div className="col-auto" style={{ width: "10rem" }}>
+              <label className="form-label">
+                <b>Telefono</b>
+              </label>
+              <input
+                type="tel"
+                className="form-control"
+                onChange={(e) => handleFormTelefono(e.target.value)}
+                value={telefono}
+              />
+            </div>
+            <div className="col-auto" style={{ width: "5rem" }}>
+              <label className="form-label">
+                <b>Num de Personas</b>
+              </label>
+              <input
+                type="number"
+                className="form-control"
+                onChange={(e) => handleFormNPersonas(e.target.value)}
+                value={numpersonas}
+              />
+            </div>
+            <div className="col-auto" style={{ width: "10rem" }}>
+              <label className="form-label">
+                <b>Fecha</b>
+              </label>
+              <input
+                type="text"
+                className="form-control"
+                onChange={(e) => handleFormFecha(e.target.value)}
+                value={fecha}
+              />
+            </div>
             <div className="divBoton">
-            <button type="submit" className="btn btn-dark">
-              Actualiza
-            </button>
+              <button type="submit" className="btn btn-dark">
+                Actualizar
+              </button>
             </div>
           </form>
         </div>
