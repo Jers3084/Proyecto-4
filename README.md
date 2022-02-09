@@ -1,3 +1,17 @@
+This project is focused on building a web application for a restaurant.
+
+includes as minimum requirements:
+
+A section or page about main restaurant information
+A contact form section
+An email and location data section
+As optional features:
+
+A component that allows you to reserve a table at a specific time and date for a user
+A component that includes the full restaurant menu
+mobile friendly
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
