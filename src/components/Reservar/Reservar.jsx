@@ -4,7 +4,7 @@ import {
   collection,
   addDoc,
 } from 'firebase/firestore/lite'
-import './Reservar.css'
+import styles from './Reservar.module.css'
 
 export const Reservar = () => {
   const [reservacion, setReservacion] = useState([]);
@@ -50,24 +50,24 @@ export const Reservar = () => {
 
   return (
     <div>
-      <h1 className="titulo_reservaciones">Reservaciones</h1>
+      <h1 className={styles.titulo_reservaciones}>Reservaciones</h1>
       <form
         id="formulario"
         onSubmit={handleSubmitr}
-        className="formato_reservar"
+        className={styles.formato_reservar}
       >
-        <section className="inputs">
+        <section className={styles.inputs}>
           <div
-            className="col-auto inputs_reservaciones"
+            className={styles.inputs_reservaciones}
             style={{ width: '25rem' }}
           >
-            <label className="form-label">Nombre Completo</label>
-            <input
+            <label className={styles.formlabel}>Nombre Completo</label>
+            <input 
               type="text"
-              className="form-control"
               id="inputNombre"
               placeholder="Nombre"
               required
+              className={styles.formcontrol}
               minLength={3}
               maxLength={40}
               onChange={(e) => {
@@ -77,13 +77,13 @@ export const Reservar = () => {
           </div>
 
           <div
-            className="col-auto inputs_reservaciones"
+            className={styles.inputs_reservaciones}
             style={{ width: '15rem' }}
           >
-            <label className="form-label">Correo electronico</label>
+            <label className={styles.formlabel}>Correo electronico</label>
             <input
               type="email"
-              className="form-control"
+              className={styles.formcontrol}
               id="inputEmail"
               placeholder="email@example.com"
               required
@@ -94,13 +94,13 @@ export const Reservar = () => {
           </div>
 
           <div
-            className="col-auto inputs_reservaciones"
+            className={styles.inputs_reservaciones}
             style={{ width: '10rem' }}
           >
-            <label className="form-label">Telefono</label>
+            <label className={styles.formlabel}>Telefono</label>
             <input
               type="tel"
-              className="form-control"
+              className={styles.formcontrol}
               id="inputTelefono"
               placeholder="Telefono"
               minLength={10}
@@ -113,13 +113,13 @@ export const Reservar = () => {
           </div>
 
           <div
-            className="col-auto inputs_reservaciones"
+            className={styles.inputs_reservaciones}
             style={{ width: '10rem' }}
           >
-            <label className="form-label">No Personas</label>
+            <label className={styles.formlabel}>No Personas</label>
             <input
               type="number"
-              className="form-control"
+              className={styles.formcontrol}
               id="inputNPersonas"
               placeholder="# personas"
               required
@@ -132,12 +132,13 @@ export const Reservar = () => {
           </div>
 
           <div
-            className="col-auto inputs_reservaciones"
+            className={styles.inputs_reservaciones}
             style={{ width: '10rem' }}
           >
-            <label className="form-label">Fecha Reservación</label>
+            <label className={styles.formlabel}>Fecha Reservación</label>
             <input
-              className="entradas"
+              className={styles.formcontrol}
+              style={{ width: '17rem' }}
               type="datetime-local"
               name="fecha"
               id="fecha"
@@ -148,8 +149,8 @@ export const Reservar = () => {
             />
           </div>
         </section>
-        <div className="boton">
-          <button type="submit" className="btn btn-danger">
+        <div className={styles.contenedor_boton}>
+          <button type="submit" className={styles.boton}>
             Enviar
           </button>
         </div>

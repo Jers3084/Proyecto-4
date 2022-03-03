@@ -7,19 +7,22 @@
 .nosotros {
   padding-top: 0px;
   padding-bottom: 0px;
+  margin-bottom: 0px;
   width: 70%;
+  height: 100vh;
   color: white;
 }
 
 .titulos_nosotros {
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 3px;
   font-size: 35px;
   color: rgb(255, 123, 0);
 }
 
 .text {
-  padding-top: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   font-size: x-large;
   color: yellow;
 }
@@ -30,7 +33,7 @@
 }
 
 .ubicacion_map {
-  margin-top: 20%;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 701px) {

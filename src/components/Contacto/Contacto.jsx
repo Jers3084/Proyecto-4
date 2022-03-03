@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { dbConfig } from '../config/firebase'
 import { collection, addDoc } from 'firebase/firestore/lite'
-import './Contacto.css'
+import styles from './Contacto.module.css';
 
 export const Contacto = () => {
   const [mensdcontacto, setMensdcontacto] = useState([])
@@ -41,15 +41,15 @@ export const Contacto = () => {
   return (
     <div>
       <form id="formcontacto" onSubmit={handleSubmit}>
-        <h1 className="titulo_contacto">Contacto</h1>
-        <div className="contenedor_contacto">
-          <div className="mb-3">
-            <label htmlFor="Correo" className="form-label">
+        <h1 className={styles.titulo_contacto}>Contacto</h1>
+        <div className={styles.contenedor_contacto}>
+          <div className={styles.mb3}>
+            <label htmlFor="Correo" className={styles.formlabel}>
               Email address
             </label>
             <input
               type="email"
-              className="form-control"
+              className={styles.formcontrol}
               id="Correo"
               placeholder="name@example.com"
               required
@@ -58,13 +58,13 @@ export const Contacto = () => {
               }}
             />
           </div>
-          <div className="mb-3">
-            <label htmlFor="Telefono" className="form-label">
+          <div className={styles.mb3}>
+            <label htmlFor="Telefono" className={styles.formlabel}>
               Telefono
             </label>
             <input
               type="tel"
-              className="form-control"
+              className={styles.formcontrol}
               id="Telefono"
               placeholder="Ingrese su numero telefonico"
               minLength={10}
@@ -75,12 +75,12 @@ export const Contacto = () => {
               }}
             />
           </div>
-          <div className="mb-3">
-            <label htmlFor="Comentario" className="form-label">
+          <div className={styles.mb3}>
+            <label htmlFor="Comentario" className={styles.formlabel}>
               Comentarios
             </label>
             <textarea
-              className="form-control"
+              className={styles.formcontrol}
               id="Comentario"
               rows={3}
               defaultValue={''}
@@ -91,13 +91,13 @@ export const Contacto = () => {
             />
           </div>
         </div>
-        <div className="contenedor_boton">
-          <button type="submit" className="btn btn-danger mb-3">
+        <div className={styles.contenedor_boton}>
+          <button type="submit" className={styles.boton}>
             Enviar
           </button>
         </div>
       </form>
-      <footer className="footer">
+      <footer className={styles.footer}>
         <p>Telefono de contacto: +52 993 16 94 442</p>
       </footer>
     </div>
