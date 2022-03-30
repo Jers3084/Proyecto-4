@@ -94,7 +94,7 @@ export const Gestion = () => {
         <ul className={styles.listado_ul}>
           {listadoReservas.map((item) => (
             <div className={styles.list_group_item}>
-              <li key={item.id} className={styles.list_group_item}>
+              <li key={item.id} className={styles.list_group_item1}>
                 {item.nombre}
                 <div className={styles.botones}>
                   <button

@@ -17,6 +17,7 @@
 
 .listadoDatos {
   width: 50%;
+  
 }
 
 .listado_ul {
@@ -137,10 +138,10 @@ justify-content: space-around;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: rgb(255, 123, 0);
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid rgb(255, 123, 0);
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -151,12 +152,29 @@ justify-content: space-around;
 .list_group_item {
   width: 100%;
   margin-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content:space-between;
-  color: white;
+  align-items: center;
+  color: rgb(255, 123, 0);
   font-weight: bolder;
+  border-bottom:  rgb(255, 123, 0) 3px solid;
+}
+
+.list_group_item1 {
+  width: 100%;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content:space-between;
+  align-items: center;
+  color: rgb(255, 123, 0);
+  font-weight: bolder;
+
 }
 
 @media screen and (max-width: 701px) {

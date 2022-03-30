@@ -5,6 +5,7 @@ export const Nosotros = () => {
   return (
     <div>
       <div className={styles.nosotros}>
+        <div className='{styles.cuerpo'>
         <p className={styles.titulos_nosotros}>
           <b>El Sazón Yokot´an del Guero de Saloya</b>
         </p>
@@ -41,6 +42,7 @@ export const Nosotros = () => {
             <b>Carretera Villahermosa - Nacajuca,Tab Km 6.5</b>
           </p>
         </section>
+        </div>
       </div>
       <section className={styles.ubicacion_map}>
         <iframe
